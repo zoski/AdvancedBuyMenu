@@ -142,501 +142,501 @@ function BuyMenu:CreateItems()
 --				VehicleBuyMenuEntry( 9, 0, "TemplateName", "DecalName", "CustomName", 3 ),
 --				VehicleBuyMenuEntry( 9, 0, nil, nil, nil, 1 ),
 				--	The above is an example.
-				VehicleBuyMenuEntry( 9, 0 ),
+				VehicleBuyMenuEntry( 9, 7000 ),
 				-- ^ Tuk-Tuk Rickshaw
-				VehicleBuyMenuEntry( 22, 0 ),
+				VehicleBuyMenuEntry( 22, 200 ),
 				-- ^ Tuk-Tuk Laa
-				VehicleBuyMenuEntry( 47, 0 ),
+				VehicleBuyMenuEntry( 47, 180 ),
 				-- ^ Schulz Virginia
-				VehicleBuyMenuEntry( 83, 0 ),
+				VehicleBuyMenuEntry( 83, 250 ),
 				-- ^ Mosca 125 Performance
-				VehicleBuyMenuEntry( 32, 0 ),
+				VehicleBuyMenuEntry( 32, 250 ),
 				-- ^ Mosca 2000
-				VehicleBuyMenuEntry( 90, 0 ),
+				VehicleBuyMenuEntry( 90, 360 ),
 				-- ^ Makota MZ250
-				VehicleBuyMenuEntry( 61, 0 ),
+				VehicleBuyMenuEntry( 61, 400 ),
 				-- ^ Makota MZ 260X
-				VehicleBuyMenuEntry( 89, 0 ),
+				VehicleBuyMenuEntry( 89, 450 ),
 				-- ^ Hamaya Y250S
-				VehicleBuyMenuEntry( 43, 0 ),
+				VehicleBuyMenuEntry( 43, 600 ),
 				-- ^ Hamaya GSY650
-				VehicleBuyMenuEntry( 74, 0 ),
+				VehicleBuyMenuEntry( 74, 750 ),
 				-- ^ Hamaya 1300 Elite Cruiser
-				VehicleBuyMenuEntry( 21, 0 ),
+				VehicleBuyMenuEntry( 21, 600 ),
 				-- ^ Hamaya Cougar 600
-				VehicleBuyMenuEntry( 36, 0, "Sport", nil, "" ),
+				VehicleBuyMenuEntry( 36, 250, "Sport", nil, "" ),
 				-- ^ Shimuzu Tracline 
-				VehicleBuyMenuEntry( 36, 0, "Gimp", nil, "" ),
+				VehicleBuyMenuEntry( 36, 250, "Gimp", nil, "" ),
 				-- ^ Shimuzu Tracline RollCage
-				VehicleBuyMenuEntry( 36, 0, "Civil", nil, "" ),
+				VehicleBuyMenuEntry( 36, 250, "Civil", nil, "" ),
 				-- ^ Shimuzu Tracline Racks
-				VehicleBuyMenuEntry( 11, 0, "Police", nil, "" ),
+				VehicleBuyMenuEntry( 11, 250, "Police", nil, "" ),
 				-- ^ Shimuzu Tracline Windshield
 			},
 
 			["Car"] = {
-				VehicleBuyMenuEntry( 44, 0, "Softtop", nil, "" ),
+				VehicleBuyMenuEntry( 44, 750, "Softtop", nil, "" ),
 				-- ^ Hamaya Oldman Softtop
-				VehicleBuyMenuEntry( 44, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 44, 750, "Cab", nil, "" ),
 				-- ^ Hamaya Oldman Opentop
-				VehicleBuyMenuEntry( 44, 0, "Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 44, 750, "Hardtop", nil, "" ),
 				-- ^ Hamaya Oldman Hardtop
-				VehicleBuyMenuEntry( 29, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 29, 600, nil, nil, "" ),
 				-- ^ Sakura Aquila City
-				VehicleBuyMenuEntry( 15, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 15, 600, nil, nil, "" ),
 				-- ^ Sakura Aquila Space
-				VehicleBuyMenuEntry( 70, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 70, 600, nil, nil, "" ),
 				-- ^ Sakura Aquila Forte (Taxi)
-				VehicleBuyMenuEntry( 55, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 55, 800, nil, nil, "" ),
 				-- ^ Sakura Aquila Metro ST
-				VehicleBuyMenuEntry( 13, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 13, 600, nil, nil, "" ),
 				-- ^ Stinger Dunebug 84
-				VehicleBuyMenuEntry( 54, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 54, 750, nil, nil, "" ),
 				-- ^ Boyd Fireflame 544
-				VehicleBuyMenuEntry( 8, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 8, 1000, nil, nil, "" ),
 				-- ^ Columbi Excelsior (Limo)
-				VehicleBuyMenuEntry( 8, 0, "Hijack_Rear", nil, "" ),
+				VehicleBuyMenuEntry( 8, 1000, "Hijack_Rear", nil, "" ),
 				-- ^ Columbi Excelsior Rear Stuntjump (Limo)
 			},
 
 			["Sportcar"] = {
-				VehicleBuyMenuEntry( 78, 0, "Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 78, 1100, "Hardtop", nil, "" ),
 				-- ^ Civadier 999 Hardtop
-				VehicleBuyMenuEntry( 78, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 78, 1100, "Cab", nil, "" ),
 				-- ^ Civadier 999 Opentop
-				VehicleBuyMenuEntry( 2, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 2, 1000, nil, nil, "" ),
 				-- ^ Mancini Cavallo 1001
-				VehicleBuyMenuEntry( 91, 0, "Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 91, 1000, "Hardtop", nil, "" ),
 				-- ^ Titus ZJ Hardtop
-				VehicleBuyMenuEntry( 91, 0, "Softtop", nil, "" ),
+				VehicleBuyMenuEntry( 91, 1000, "Softtop", nil, "" ),
 				-- ^ Titus ZJ Softtop
-				VehicleBuyMenuEntry( 91, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 91, 1000, "Cab", nil, "" ),
 				-- ^ Titus ZJ Opentop
-				VehicleBuyMenuEntry( 35, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 35, 1500, nil, nil, "" ),
 				-- ^ Garret Traver-Z
-				VehicleBuyMenuEntry( 35, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 35, 1500, "FullyUpgraded", nil, "" ),
 				-- ^ Garret Traver-Z Armed
 			},
 
 			["Jeep"] = {
-				VehicleBuyMenuEntry( 48, 0, "Buggy", nil, "" ),
+				VehicleBuyMenuEntry( 48, 900, "Buggy", nil, "" ),
 				-- ^ Maddox FVA 45
-				VehicleBuyMenuEntry( 48, 0, "BuggyMG", nil, "" ),
+				VehicleBuyMenuEntry( 48, 900, "BuggyMG", nil, "" ),
 				-- ^ Maddox FVA 45 Mounted Gun
-				VehicleBuyMenuEntry( 48, 0, "Buggy", "Reapers", "" ),
+				VehicleBuyMenuEntry( 48, 900, "Buggy", "Reapers", "" ),
 				-- ^ Maddox FVA 45
-				VehicleBuyMenuEntry( 48, 0, "BuggyMG", "Reapers", "" ),
+				VehicleBuyMenuEntry( 48, 900, "BuggyMG", "Reapers", "" ),
 				-- ^ Maddox FVA 45 Mounted Gun
-				VehicleBuyMenuEntry( 48, 0, "Buggy", "Roaches", "" ),
+				VehicleBuyMenuEntry( 48, 900, "Buggy", "Roaches", "" ),
 				-- ^ Maddox FVA 45
-				VehicleBuyMenuEntry( 48, 0, "BuggyMG", "Roaches", "" ),
+				VehicleBuyMenuEntry( 48, 900, "BuggyMG", "Roaches", "" ),
 				-- ^ Maddox FVA 45 Mounted Gun
-				VehicleBuyMenuEntry( 48, 0, "Buggy", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 48, 900, "Buggy", "UlarBoys", "" ),
 				-- ^ Maddox FVA 45
-				VehicleBuyMenuEntry( 48, 0, "BuggyMG", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 48, 900, "BuggyMG", "UlarBoys", "" ),
 				-- ^ Maddox FVA 45 Mounted Gun
-				VehicleBuyMenuEntry( 87, 0, "Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 87, 800, "Hardtop", nil, "" ),
 				-- ^ Wilforce Trekstar Hardtop
-				VehicleBuyMenuEntry( 87, 0, "Softtop", nil, "" ),
+				VehicleBuyMenuEntry( 87, 800, "Softtop", nil, "" ),
 				-- ^ Wilforce Trekstar Softtop
-				VehicleBuyMenuEntry( 87, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 87, 800, "Cab", nil, "" ),
 				-- ^ Wilforce Trekstar Opentop
-				VehicleBuyMenuEntry( 87, 0, "Hardtop", "Reapers", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Hardtop", "Reapers", "" ),
 				-- ^ Wilforce Trekstar Hardtop
-				VehicleBuyMenuEntry( 87, 0, "Softtop", "Reapers", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Softtop", "Reapers", "" ),
 				-- ^ Wilforce Trekstar Softtop
-				VehicleBuyMenuEntry( 87, 0, "Cab", "Reapers", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Cab", "Reapers", "" ),
 				-- ^ Wilforce Trekstar Opentop
-				VehicleBuyMenuEntry( 87, 0, "Hardtop", "Roaches", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Hardtop", "Roaches", "" ),
 				-- ^ Wilforce Trekstar Hardtop
-				VehicleBuyMenuEntry( 87, 0, "Softtop", "Roaches", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Softtop", "Roaches", "" ),
 				-- ^ Wilforce Trekstar Softtop
-				VehicleBuyMenuEntry( 87, 0, "Cab", "Roaches", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Cab", "Roaches", "" ),
 				-- ^ Wilforce Trekstar Opentop
-				VehicleBuyMenuEntry( 87, 0, "Hardtop", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Hardtop", "UlarBoys", "" ),
 				-- ^ Wilforce Trekstar Hardtop
-				VehicleBuyMenuEntry( 87, 0, "Softtop", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Softtop", "UlarBoys", "" ),
 				-- ^ Wilforce Trekstar Softtop
-				VehicleBuyMenuEntry( 87, 0, "Cab", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 87, 800, "Cab", "UlarBoys", "" ),
 				-- ^ Wilforce Trekstar Opentop
-				VehicleBuyMenuEntry( 52, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 52, 800, nil, nil, "" ),
 				-- ^ Sass PP12 Hogg
-				VehicleBuyMenuEntry( 10, 0, "Ingame", nil, "Karl Blaine's" ),
+				VehicleBuyMenuEntry( 10, 800, "Ingame", nil, "Karl Blaine's" ),
 				-- ^ Sass PP12 Hogg (Karl Blaine's)
-				VehicleBuyMenuEntry( 46, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 46, 1200, nil, nil, "" ),
 				-- ^ MV V880
-				VehicleBuyMenuEntry( 46, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Cab", nil, "" ),
 				-- ^ MV V880 Opentop
-				VehicleBuyMenuEntry( 46, 0, "Combi", nil, "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Combi", nil, "" ),
 				-- ^ MV V880 Loaded with Gear
-				VehicleBuyMenuEntry( 46, 0, "CombiMG", nil, "" ),
+				VehicleBuyMenuEntry( 46, 1200, "CombiMG", nil, "" ),
 				-- ^ MV V880 Loaded with Gear, Mounted Gun
-				VehicleBuyMenuEntry( 46, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 46, 1200, nil, "Reapers", "" ),
 				-- ^ MV V880
-				VehicleBuyMenuEntry( 46, 0, "Cab", "Reapers", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Cab", "Reapers", "" ),
 				-- ^ MV V880 Opentop
-				VehicleBuyMenuEntry( 46, 0, "Combi", "Reapers", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Combi", "Reapers", "" ),
 				-- ^ MV V880 Loaded with Gear
-				VehicleBuyMenuEntry( 46, 0, "CombiMG", "Reapers", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "CombiMG", "Reapers", "" ),
 				-- ^ MV V880 Loaded with Gear, Mounted Gun
-				VehicleBuyMenuEntry( 46, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 46, 1200, nil, "Roaches", "" ),
 				-- ^ MV V880
-				VehicleBuyMenuEntry( 46, 0, "Cab", "Roaches", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Cab", "Roaches", "" ),
 				-- ^ MV V880 Opentop
-				VehicleBuyMenuEntry( 46, 0, "Combi", "Roaches", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Combi", "Roaches", "" ),
 				-- ^ MV V880 Loaded with Gear
-				VehicleBuyMenuEntry( 46, 0, "CombiMG", "Roaches", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "CombiMG", "Roaches", "" ),
 				-- ^ MV V880 Loaded with Gear, Mounted Gun
-				VehicleBuyMenuEntry( 46, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 46, 1200, nil, "UlarBoys", "" ),
 				-- ^ MV V880
-				VehicleBuyMenuEntry( 46, 0, "Cab", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Cab", "UlarBoys", "" ),
 				-- ^ MV V880 Opentop
-				VehicleBuyMenuEntry( 46, 0, "Combi", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "Combi", "UlarBoys", "" ),
 				-- ^ MV V880 Loaded with Gear
-				VehicleBuyMenuEntry( 46, 0, "CombiMG", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 46, 1200, "CombiMG", "UlarBoys", "" ),
 				-- ^ MV V880 Loaded with Gear, Mounted Gun
-				VehicleBuyMenuEntry( 72, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 72, 1000, nil, nil, "" ),
 				-- ^ Chepachet PVD
-				VehicleBuyMenuEntry( 72, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 72, 1000, nil, "Reapers", "" ),
 				-- ^ Chepachet PVD
-				VehicleBuyMenuEntry( 72, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 72, 1000, nil, "Roaches", "" ),
 				-- ^ Chepachet PVD
-				VehicleBuyMenuEntry( 72, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 72, 1000, nil, "UlarBoys", "" ),
 				-- ^ Chepachet PVD
-				VehicleBuyMenuEntry( 84, 0, "HardtopMG", nil, "" ),
+				VehicleBuyMenuEntry( 84, 750, "HardtopMG", nil, "" ),
 				-- ^ Marten Storm III Mounted Gun
-				VehicleBuyMenuEntry( 84, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 84, 750, "Cab", nil, "" ),
 				-- ^ Marten Storm III Opentop Truckbed
-				VehicleBuyMenuEntry( 84, 0, "HardtopMG", "Reapers", "" ),
+				VehicleBuyMenuEntry( 84, 750, "HardtopMG", "Reapers", "" ),
 				-- ^ Marten Storm III Mounted Gun
-				VehicleBuyMenuEntry( 84, 0, "Cab", "Reapers", "" ),
+				VehicleBuyMenuEntry( 84, 750, "Cab", "Reapers", "" ),
 				-- ^ Marten Storm III Opentop Truckbed
-				VehicleBuyMenuEntry( 84, 0, "HardtopMG", "Roaches", "" ),
+				VehicleBuyMenuEntry( 84, 750, "HardtopMG", "Roaches", "" ),
 				-- ^ Marten Storm III Mounted Gun
-				VehicleBuyMenuEntry( 84, 0, "Cab", "Roaches", "" ),
+				VehicleBuyMenuEntry( 84, 750, "Cab", "Roaches", "" ),
 				-- ^ Marten Storm III Opentop Truckbed
-				VehicleBuyMenuEntry( 84, 0, "HardtopMG", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 84, 750, "HardtopMG", "UlarBoys", "" ),
 				-- ^ Marten Storm III Mounted Gun
-				VehicleBuyMenuEntry( 84, 0, "Cab", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 84, 750, "Cab", "UlarBoys", "" ),
 				-- ^ Marten Storm III Opentop Truckbed
-				VehicleBuyMenuEntry( 77, 0, "Default", nil, ""),
+				VehicleBuyMenuEntry( 77, 1500, "Default", nil, ""),
 				-- ^ Hedge Wildchild
-				VehicleBuyMenuEntry( 77, 0, nil, nil, ""),
+				VehicleBuyMenuEntry( 77, 1500, nil, nil, ""),
 				-- ^ Hedge Wildchild
-				VehicleBuyMenuEntry( 77, 0, "Armed", nil, "" ),
+				VehicleBuyMenuEntry( 77, 1500, "Armed", nil, "" ),
 				-- ^ Hedge Wildchild Rockets
 			},
 
 			["Pickup"] = {
-				VehicleBuyMenuEntry( 60, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 60, 350, nil, nil, "" ),
 				-- ^ Vaultier Patrolman
-				VehicleBuyMenuEntry( 26, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 26, 500, nil, nil, "" ),
 				-- ^ Chevalier Traveller SD
-				VehicleBuyMenuEntry( 73, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 73, 500, nil, nil, "" ),
 				-- ^ Chevalier Express HT
-				VehicleBuyMenuEntry( 23, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 23, 500, nil, nil, "" ),
 				-- ^ Chevalier Liner SB
-				VehicleBuyMenuEntry( 63, 0, nil, nil, "" ),	
+				VehicleBuyMenuEntry( 63, 500, nil, nil, "" ),	
 				-- ^ Chevalier Traveller SC
-				VehicleBuyMenuEntry( 68, 0, nil, nil, "" ),				
+				VehicleBuyMenuEntry( 68, 500, nil, nil, "" ),				
 				-- ^ Chevalier Traveller SX
-				VehicleBuyMenuEntry( 33, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 33, 500, nil, nil, "" ),
 				-- ^ Chevalier Piazza IX
-				VehicleBuyMenuEntry( 86, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 86, 600, nil, nil, "" ),
 				-- ^ Dalton N90
-				VehicleBuyMenuEntry( 86, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 86, 600, nil, "Reapers", "" ),
 				-- ^ Dalton N90
-				VehicleBuyMenuEntry( 86, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 86, 600, nil, "Roaches", "" ),
 				-- ^ Dalton N90
-				VehicleBuyMenuEntry( 86, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 86, 600, nil, "UlarBoys", "" ),
 				-- ^ Dalton N90
-				VehicleBuyMenuEntry( 7, 0, "Default", nil, "" ),
+				VehicleBuyMenuEntry( 7, 1500, "Default", nil, "" ),
 				-- ^ Poloma Renegade
-				VehicleBuyMenuEntry( 7, 0, "Armed", nil, "" ),
+				VehicleBuyMenuEntry( 7, 1500, "Armed", nil, "" ),
 				-- ^ Poloma Renegade
-				VehicleBuyMenuEntry( 7, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 7, 1500, "FullyUpgraded", nil, "" ),
 				-- ^ Poloma Renegade Rockets
 			},
 
 			["Bus"] = {
-				VehicleBuyMenuEntry( 66, 0, "Single", nil, "" ),
+				VehicleBuyMenuEntry( 66, 500, "Single", nil, "" ),
 				-- ^ Dinggong 134D Single-Decker
-				VehicleBuyMenuEntry( 66, 0, "Double", nil, "" ),
+				VehicleBuyMenuEntry( 66, 800, "Double", nil, "" ),
 				-- ^ Dinggong 134D Double-Decker
-				VehicleBuyMenuEntry( 12, 0 ),
+				VehicleBuyMenuEntry( 12, 900 ),
 				-- ^ Vanderbildt LeisureLiner
 			},
 
 			["Truck"] = {
-				VehicleBuyMenuEntry( 42, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 42, 400, nil, nil, "" ),
 				-- ^ Niseco Tusker P246
-				VehicleBuyMenuEntry( 49, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 49, 400, nil, nil, "" ),
 				-- ^ Niseco Tusker D18
-				VehicleBuyMenuEntry( 71, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 71, 400, nil, nil, "" ),
 				-- ^ Niseco Tusker G216
-				VehicleBuyMenuEntry( 41, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 41, 400, nil, nil, "" ),
 				-- ^ Niseco Tusker D22
-				VehicleBuyMenuEntry( 4, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 4, 750, nil, nil, "" ),
 				-- ^ Kenwall Heavy Rescue
-				VehicleBuyMenuEntry( 79, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 79, 1300, nil, nil, "" ),
 				-- ^ Pocumtruck Nomad
 			},
 
 			["Heavy"] = {
-				VehicleBuyMenuEntry( 40, 0, "Regular", nil, "" ),
+				VehicleBuyMenuEntry( 40, 800, "Regular", nil, "" ),
 				-- ^ Fengding EC14FD2 Longbed
-				VehicleBuyMenuEntry( 40, 0, "Crane", nil, "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crane", nil, "" ),
 				-- ^ Fengding EC14FD2 Crane
-				VehicleBuyMenuEntry( 40, 0, "Crate", nil, "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crate", nil, "" ),
 				-- ^ Fengding EC14FD2 Shortbed
-				VehicleBuyMenuEntry( 40, 0, "Regular", "Reapers", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Regular", "Reapers", "" ),
 				-- ^ Fengding EC14FD2 Longbed
-				VehicleBuyMenuEntry( 40, 0, "Crane", "Reapers", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crane", "Reapers", "" ),
 				-- ^ Fengding EC14FD2 Crane
-				VehicleBuyMenuEntry( 40, 0, "Crate", "Reapers", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crate", "Reapers", "" ),
 				-- ^ Fengding EC14FD2 Shortbed
-				VehicleBuyMenuEntry( 40, 0, "Regular", "Roaches", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Regular", "Roaches", "" ),
 				-- ^ Fengding EC14FD2 Longbed
-				VehicleBuyMenuEntry( 40, 0, "Crane", "Roaches", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crane", "Roaches", "" ),
 				-- ^ Fengding EC14FD2 Crane
-				VehicleBuyMenuEntry( 40, 0, "Crate", "Roaches", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crate", "Roaches", "" ),
 				-- ^ Fengding EC14FD2 Shortbed
-				VehicleBuyMenuEntry( 40, 0, "Regular", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Regular", "UlarBoys", "" ),
 				-- ^ Fengding EC14FD2 Longbed
-				VehicleBuyMenuEntry( 40, 0, "Crane", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crane", "UlarBoys", "" ),
 				-- ^ Fengding EC14FD2 Crane
-				VehicleBuyMenuEntry( 40, 0, "Crate", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 40, 800, "Crate", "UlarBoys", "" ),
 				-- ^ Fengding EC14FD2 Shortbed
-				VehicleBuyMenuEntry( 31, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 31, 800, nil, nil, "" ),
 				-- ^ URGA-9380 Tow Cables
-				VehicleBuyMenuEntry( 31, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 31, 800, "Cab", nil, "" ),
 				-- ^ URGA-9380 Empty
-				VehicleBuyMenuEntry( 31, 0, "MG", nil, "" ),
+				VehicleBuyMenuEntry( 31, 800, "MG", nil, "" ),
 				-- ^ URGA-9380 Mounted Gun
-				VehicleBuyMenuEntry( 76, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 76, 2000, nil, nil, "" ),
 				-- ^ SAAS PP30 Ox
-				VehicleBuyMenuEntry( 18, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 18, 5000, nil, nil, "" ),
 				-- ^ SV-1003 Raider Mounted Gun
-				VehicleBuyMenuEntry( 18, 0, "Russian", nil, "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Russian", nil, "" ),
 				-- ^ SV-1003 Raider Russin Minigun & Guard
-				VehicleBuyMenuEntry( 18, 0, "Cannon", nil, "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Cannon", nil, "" ),
 				-- ^ SV-1007 Stonewall
-				VehicleBuyMenuEntry( 18, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 18, 5000, nil, "Reapers", "" ),
 				-- ^ SV-1003 Raider Mounted Gun
-				VehicleBuyMenuEntry( 18, 0, "Russian", "Reapers", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Russian", "Reapers", "" ),
 				-- ^ SV-1003 Raider Russin Minigun & Guard
-				VehicleBuyMenuEntry( 18, 0, "Cannon", "Reapers", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Cannon", "Reapers", "" ),
 				-- ^ SV-1007 Stonewall
-				VehicleBuyMenuEntry( 18, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 18, 5000, nil, "Roaches", "" ),
 				-- ^ SV-1003 Raider Mounted Gun
-				VehicleBuyMenuEntry( 18, 0, "Russian", "Roaches", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Russian", "Roaches", "" ),
 				-- ^ SV-1003 Raider Russin Minigun & Guard
-				VehicleBuyMenuEntry( 18, 0, "Cannon", "Roaches", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Cannon", "Roaches", "" ),
 				-- ^ SV-1007 Stonewall
-				VehicleBuyMenuEntry( 18, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 18, 5000, nil, "UlarBoys", "" ),
 				-- ^ SV-1003 Raider Mounted Gun
-				VehicleBuyMenuEntry( 18, 0, "Russian", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Russian", "UlarBoys", "" ),
 				-- ^ SV-1003 Raider Russin Minigun & Guard
-				VehicleBuyMenuEntry( 18, 0, "Cannon", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 18, 5000, "Cannon", "UlarBoys", "" ),
 				-- ^ SV-1007 Stonewall
-				VehicleBuyMenuEntry( 56, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 56, 5000, "Cab", nil, "" ),
 				-- ^ GV-104 Razorback UnArmed
-				VehicleBuyMenuEntry( 56, 0, "Armed", nil, "" ),
+				VehicleBuyMenuEntry( 56, 5000, "Armed", nil, "" ),
 				-- ^ GV-104 Razorback Minigun
-				VehicleBuyMenuEntry( 56, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 56, 5000, nil, nil, "" ),
 				-- ^ GV-104 Razorback Base with Autocannon
-				VehicleBuyMenuEntry( 56, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 56, 5000, "FullyUpgraded", nil, "" ),
 				-- ^ GV-104 Razorback with Autocannon & Machine Guns
 			},
 
 			["Tractor"] = {
-				VehicleBuyMenuEntry( 1, 0, "Modern_Cab", nil, "" ),
+				VehicleBuyMenuEntry( 1, 350, "Modern_Cab", nil, "" ),
 				-- ^ Dongtai Agriboss 35 Modern Open Cab
-				VehicleBuyMenuEntry( 1, 0, "Modern_Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 1, 350, "Modern_Hardtop", nil, "" ),
 				-- ^ Dongtai Agriboss 35 Modern Closed Cab
-				VehicleBuyMenuEntry( 1, 0, "Classic_Cab", nil, "" ),
+				VehicleBuyMenuEntry( 1, 350, "Classic_Cab", nil, "" ),
 				-- ^ Dongtai Agriboss 35 Old Style Open Cab
-				VehicleBuyMenuEntry( 1, 0, "Classic_Hardtop", nil, "" ),
+				VehicleBuyMenuEntry( 1, 350, "Classic_Hardtop", nil, "" ),
 				-- ^ Dongtai Agriboss 35 Old Style Closed Cab
 			},
 
 			["Heli"] = {
-				VehicleBuyMenuEntry( 3, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 3, 3000, nil, nil, "" ),
 				-- ^ Rowlinson K22
-				VehicleBuyMenuEntry( 3, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 3, 3000, "FullyUpgraded", nil, "" ),
 				-- ^ Rowlinson K22 Armed
-				VehicleBuyMenuEntry( 14, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 14, 1500, nil, nil, "" ),
 				-- ^ Mullen Skeeter Eagle
-				VehicleBuyMenuEntry( 67, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 67, 2500, nil, nil, "" ),
 				-- ^ Mullen Skeeter Hawk
 --				VehicleBuyMenuEntry( 37, 0 ),
 				-- ^ Sivirkin 15 Havoc
-				VehicleBuyMenuEntry( 57, 0, "Mission", nil, "" ),
+				VehicleBuyMenuEntry( 57, 5000, "Mission", nil, "" ),
 				-- ^ Sivirkin 15 Havoc
-				VehicleBuyMenuEntry( 57, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 57, 5000, "FullyUpgraded", nil, "" ),
 				-- ^ Sivirkin 15 Havoc Rockets
-				VehicleBuyMenuEntry( 57, 0, "Mission", "Reapers", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "Mission", "Reapers", "" ),
 				-- ^ Sivirkin 15 Havoc
-				VehicleBuyMenuEntry( 57, 0, "FullyUpgraded", "Reapers", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "FullyUpgraded", "Reapers", "" ),
 				-- ^ Sivirkin 15 Havoc Rockets
-				VehicleBuyMenuEntry( 57, 0, "Mission", "Roaches", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "Mission", "Roaches", "" ),
 				-- ^ Sivirkin 15 Havoc
-				VehicleBuyMenuEntry( 57, 0, "FullyUpgraded", "Roaches", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "FullyUpgraded", "Roaches", "" ),
 				-- ^ Sivirkin 15 Havoc Rockets
-				VehicleBuyMenuEntry( 57, 0, "Mission", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "Mission", "UlarBoys", "" ),
 				-- ^ Sivirkin 15 Havoc
-				VehicleBuyMenuEntry( 57, 0, "FullyUpgraded", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 57, 5000, "FullyUpgraded", "UlarBoys", "" ),
 				-- ^ Sivirkin 15 Havoc Rockets
-				VehicleBuyMenuEntry( 64, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 64, 4000, nil, nil, "" ),
 				-- ^ AH-33 Topachula
-				VehicleBuyMenuEntry( 64, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 64, 4000, nil, "Reapers", "" ),
 				-- ^ AH-33 Topachula
-				VehicleBuyMenuEntry( 64, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 64, 4000, nil, "Roaches", "" ),
 				-- ^ AH-33 Topachula
-				VehicleBuyMenuEntry( 64, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 64, 4000, nil, "UlarBoys", "" ),
 				-- ^ AH-33 Topachula
-				VehicleBuyMenuEntry( 65, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 65, 4000, nil, nil, "" ),
 				-- ^ H-62 Quapaw
-				VehicleBuyMenuEntry( 65, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 65, 4000, nil, "Reapers", "" ),
 				-- ^ H-62 Quapaw
-				VehicleBuyMenuEntry( 65, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 65, 4000, nil, "Roaches", "" ),
 				-- ^ H-62 Quapaw
-				VehicleBuyMenuEntry( 65, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 65, 4000, nil, "UlarBoys", "" ),
 				-- ^ H-62 Quapaw
-				VehicleBuyMenuEntry( 62, 0, "UnArmed", nil, "" ),
+				VehicleBuyMenuEntry( 62, 4000, "UnArmed", nil, "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Armed", nil, "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Armed", nil, "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Cutscene", nil, "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Cutscene", nil, "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Dome", nil, "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Dome", nil, "" ),
 				-- ^ UH-10 Chippewa (4 Seater) Rockets
-				VehicleBuyMenuEntry( 62, 0, "UnArmed", "Reapers", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "UnArmed", "Reapers", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Armed", "Reapers", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Armed", "Reapers", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Cutscene", "Reapers", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Cutscene", "Reapers", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Dome", "Reapers", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Dome", "Reapers", "" ),
 				-- ^ UH-10 Chippewa (4 Seater) Rockets
-				VehicleBuyMenuEntry( 62, 0, "UnArmed", "Roaches", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "UnArmed", "Roaches", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Armed", "Roaches", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Armed", "Roaches", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Cutscene", "Roaches", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Cutscene", "Roaches", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Dome", "Roaches", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Dome", "Roaches", "" ),
 				-- ^ UH-10 Chippewa (4 Seater) Rockets
-				VehicleBuyMenuEntry( 62, 0, "UnArmed", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "UnArmed", "UlarBoys", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Armed", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Armed", "UlarBoys", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Cutscene", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Cutscene", "UlarBoys", "" ),
 				-- ^ UH-10 Chippewa (4 Seater)
-				VehicleBuyMenuEntry( 62, 0, "Dome", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 62, 4000, "Dome", "UlarBoys", "" ),
 				-- ^ UH-10 Chippewa (4 Seater) Rockets
 			},
 			
 			["Plane"] = {
-				VehicleBuyMenuEntry( 59, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 59, 2000, nil, nil, "" ),
 				-- ^ Peek Airhawk 225
-				VehicleBuyMenuEntry( 81, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 81, 5000, nil, nil, "" ),
 				-- ^ Pell Silverbolt 6
-				VehicleBuyMenuEntry( 51, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 51, 3500, nil, nil, "" ),
 				-- ^ Cassius 192
-				VehicleBuyMenuEntry( 30, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 30, 8000, nil, nil, "" ),
 				-- ^ Si-47 Leopard
-				VehicleBuyMenuEntry( 30, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 30, 8000, nil, "Reapers", "" ),
 				-- ^ Si-47 Leopard
-				VehicleBuyMenuEntry( 30, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 30, 8000, nil, "Roaches", "" ),
 				-- ^ Si-47 Leopard
-				VehicleBuyMenuEntry( 30, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 30, 8000, nil, "UlarBoys", "" ),
 				-- ^ Si-47 Leopard
-				VehicleBuyMenuEntry( 34, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 34, 10000, nil, nil, "" ),
 				-- ^ G9 Eclipse
-				VehicleBuyMenuEntry( 39, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 39, 5000, nil, nil, "" ),
 				-- ^ Aeroliner 474
-				VehicleBuyMenuEntry( 85, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 85, 10000, nil, nil, "" ),
 				-- ^ Bering I-86DP
-				VehicleBuyMenuEntry( 85, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 85, 10000, nil, "Reapers", "" ),
 				-- ^ Bering I-86DP
-				VehicleBuyMenuEntry( 85, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 85, 10000, nil, "Roaches", "" ),
 				-- ^ Bering I-86DP
-				VehicleBuyMenuEntry( 85, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 85, 10000, nil, "UlarBoys", "" ),
 				-- ^ Bering I-86DP
 			},
 			
 			["Boat"] = {
-				VehicleBuyMenuEntry( 38, 0, "Djonk01", nil, "" ),
+				VehicleBuyMenuEntry( 38, 500, "Djonk01", nil, "" ),
 				-- ^ Kuang Sunrise
-				VehicleBuyMenuEntry( 38, 0, "Djonk02", nil, "" ),
+				VehicleBuyMenuEntry( 38, 500, "Djonk02", nil, "" ),
 				-- ^ Kuang Sunrise 
-				VehicleBuyMenuEntry( 38, 0, "Djonk03", nil, "" ),
+				VehicleBuyMenuEntry( 38, 500, "Djonk03", nil, "" ),
 				-- ^ Kuang Sunrise 
-				VehicleBuyMenuEntry( 38, 0, "Djonk04", nil, "" ),
+				VehicleBuyMenuEntry( 38, 500, "Djonk04", nil, "" ),
 				-- ^ Kuang Sunrise 
-				VehicleBuyMenuEntry( 5, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 5, 500, "Cab", nil, "" ),
 				-- ^ Pattani Gluay Empty
-				VehicleBuyMenuEntry( 5, 0, "Softtop", nil, "" ),
+				VehicleBuyMenuEntry( 5, 500, "Softtop", nil, "" ),
 				-- ^ Pattani Gluay Touring (6 Seater)
-				VehicleBuyMenuEntry( 5, 0, "Fishing", nil, "" ),
+				VehicleBuyMenuEntry( 5, 500, "Fishing", nil, "" ),
 				-- ^ Pattani Gluay Fishing
-				VehicleBuyMenuEntry( 6, 0 ),
+				VehicleBuyMenuEntry( 6, 800 ),
 				-- ^ Orque Grandois 21TT
-				VehicleBuyMenuEntry( 19, 0 ),
+				VehicleBuyMenuEntry( 19, 800 ),
 				-- ^ Orque Living 42T
-				VehicleBuyMenuEntry( 45, 0 ),
+				VehicleBuyMenuEntry( 45, 800 ),
 				-- ^ Orque Bon Ton 71FT
-				VehicleBuyMenuEntry( 16, 0 ),
+				VehicleBuyMenuEntry( 16, 500 ),
 				-- ^ YP-107 Phoenix
-				VehicleBuyMenuEntry( 25, 0, "Softtop", nil, "" ),
+				VehicleBuyMenuEntry( 25, 700, "Softtop", nil, "" ),
 				-- ^ Trat Tang-mo Cargo
-				VehicleBuyMenuEntry( 25, 0, "Cab", nil, "" ),
+				VehicleBuyMenuEntry( 25, 700, "Cab", nil, "" ),
 				-- ^ Trat Tang-mo Empty
-				VehicleBuyMenuEntry( 28, 0 ),
+				VehicleBuyMenuEntry( 28, 900 ),
 				-- ^ TextE Charteu 52CT
-				VehicleBuyMenuEntry( 50, 0 ),
+				VehicleBuyMenuEntry( 50, 500 ),
 				-- ^ Zhejiang 6903
-				VehicleBuyMenuEntry( 80, 0 ),
+				VehicleBuyMenuEntry( 80, 1000 ),
 				-- ^ Frisco Catshark S-38
-				VehicleBuyMenuEntry( 27, 0 ),
+				VehicleBuyMenuEntry( 27, 1100 ),
 				-- ^ SnakeHead T20
-				VehicleBuyMenuEntry( 88, 0, "Default" ),
+				VehicleBuyMenuEntry( 88, 1050, "Default" ),
 				-- ^ MTA Powerrun 77
-				VehicleBuyMenuEntry( 88, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 88, 1050, nil, nil, "" ),
 				-- ^ MTA Powerrun 77 Armed
-				VehicleBuyMenuEntry( 88, 0, "FullyUpgraded", nil, "" ),
+				VehicleBuyMenuEntry( 88, 1050, "FullyUpgraded", nil, "" ),
 				-- ^ MTA Powerrun 77 Rockets
-				VehicleBuyMenuEntry( 69, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 69, 1000, nil, nil, "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, "Roaches", nil, "" ),
+				VehicleBuyMenuEntry( 69, 1000, "Roaches", nil, "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, nil, "Reapers", "" ),
+				VehicleBuyMenuEntry( 69, 1000, nil, "Reapers", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, "Roaches", "Reapers", "" ),
+				VehicleBuyMenuEntry( 69, 1000, "Roaches", "Reapers", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, nil, "Roaches", "" ),
+				VehicleBuyMenuEntry( 69, 1000, nil, "Roaches", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, "Roaches", "Roaches", "" ),
+				VehicleBuyMenuEntry( 69, 1000, "Roaches", "Roaches", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, nil, "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 69, 1000, nil, "UlarBoys", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
-				VehicleBuyMenuEntry( 69, 0, "Roaches", "UlarBoys", "" ),
+				VehicleBuyMenuEntry( 69, 1000, "Roaches", "UlarBoys", "" ),
 				-- ^ Winstons Amen 69 Dual Mounted Guns
 			},
 			
 			["DLC"] = {
-				VehicleBuyMenuEntry( 75, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 75, 1000, nil, nil, "" ),
 				-- ^ Tuk Tuk Boom Boom
-				VehicleBuyMenuEntry( 58, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 58, 2000, nil, nil, "" ),
 				-- ^ Chevalier Classic
-				VehicleBuyMenuEntry( 82, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 82, 1000, nil, nil, "" ),
 				-- ^ Chevalier Ice Breaker
-				VehicleBuyMenuEntry( 20, 0, nil, nil, "" ),
+				VehicleBuyMenuEntry( 20, 8000, nil, nil, "" ),
 				-- ^ Monster Truck
-				VehicleBuyMenuEntry( 53, 0 ),
+				VehicleBuyMenuEntry( 53, 10000 ),
 				-- ^ Agency Hovercraft
-				VehicleBuyMenuEntry( 24, 0 ),
+				VehicleBuyMenuEntry( 24, 15000 ),
 				-- ^ F-33 DragonFly
 			}
         },
@@ -645,69 +645,69 @@ function BuyMenu:CreateItems()
             { "Right Hand", "Left Hand" , "Primary" },
             ["Right Hand"] = {
 --                WeaponBuyMenuEntry( Weapon.Handgun, Price, Slot(Left: 0, Right: 1, Primary: 2), "NAME", RequiredRankNumber ),
-				WeaponBuyMenuEntry( Weapon.BubbleGun, 0, 1, "Bubble Gun" ),
-                WeaponBuyMenuEntry( Weapon.Handgun, 0, 1, "Pistol" ),
-                WeaponBuyMenuEntry( Weapon.Revolver, 0, 1, "Revolver" ),
-                WeaponBuyMenuEntry( Weapon.SMG, 0, 1, "SMG" ),
-                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 0, 1, "Sawn-off Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 0, 1, "Grenade Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Assault, 0, 1, "Assault Rifle" ),
-				WeaponBuyMenuEntry( Weapon.Shotgun, 0, 1, "Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.MachineGun, 0, 1, "Machine Gun" ),
-				WeaponBuyMenuEntry( Weapon.Sniper, 0, 1, "Sniper Rifle" ),
-				WeaponBuyMenuEntry( Weapon.RocketLauncher, 0, 1, "Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 0, 1, "Panay Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Minigun, 0, 1, "Minigun" ),
-				WeaponBuyMenuEntry( Weapon.SignatureGun, 0, 1, "Rico's Signature Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.Airzooka, 0, 1, "Air Propulsion Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 0, 1, "Cluster Bomb Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 0, 1, "Multi-target Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 0, 1, "Quad Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 0, 1, "Bull's Eye Assault Rifle - DLC" ),
+				WeaponBuyMenuEntry( Weapon.BubbleGun, 100, 1, "Bubble Gun" ),
+                WeaponBuyMenuEntry( Weapon.Handgun, 500, 1, "Pistol" ),
+                WeaponBuyMenuEntry( Weapon.Revolver, 1000, 1, "Revolver" ),
+                WeaponBuyMenuEntry( Weapon.SMG, 1200, 1, "SMG" ),
+                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 1100, 1, "Sawn-off Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 2000, 1, "Grenade Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Assault, 2000, 1, "Assault Rifle" ),
+				WeaponBuyMenuEntry( Weapon.Shotgun, 2000, 1, "Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.MachineGun, 4000, 1, "Machine Gun" ),
+				WeaponBuyMenuEntry( Weapon.Sniper, 5000, 1, "Sniper Rifle" ),
+				WeaponBuyMenuEntry( Weapon.RocketLauncher, 7500, 1, "Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 10000, 1, "Panay Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Minigun, 7500, 1, "Minigun" ),
+				WeaponBuyMenuEntry( Weapon.SignatureGun, 3500, 1, "Rico's Signature Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.Airzooka, 7500, 1, "Air Propulsion Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 7500, 1, "Cluster Bomb Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 10000, 1, "Multi-target Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 10000, 1, "Quad Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 7500, 1, "Bull's Eye Assault Rifle - DLC" ),
             },
 
             ["Left Hand"] = {
-				WeaponBuyMenuEntry( Weapon.BubbleGun, 0, 0, "Bubble Gun" ),
-                WeaponBuyMenuEntry( Weapon.Handgun, 0, 0, "Pistol" ),
-                WeaponBuyMenuEntry( Weapon.Revolver, 0, 0, "Revolver" ),
-                WeaponBuyMenuEntry( Weapon.SMG, 0, 0, "SMG" ),
-                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 0, 0, "Sawn-off Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 0, 0, "Grenade Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Assault, 0, 0, "Assault Rifle" ),
-				WeaponBuyMenuEntry( Weapon.Shotgun, 0, 0, "Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.MachineGun, 0, 0, "Machine Gun" ),
-				WeaponBuyMenuEntry( Weapon.Sniper, 0, 0, "Sniper Rifle" ),
-				WeaponBuyMenuEntry( Weapon.RocketLauncher, 0, 0, "Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 0, 0, "Panay Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Minigun, 0, 0, "Minigun" ),
-				WeaponBuyMenuEntry( Weapon.SignatureGun, 0, 0, "Rico's Signature Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.Airzooka, 0, 0, "Air Propulsion Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 0, 0, "Cluster Bomb Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 0, 0, "Multi-target Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 0, 0, "Quad Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 0, 0, "Bull's Eye Assault Rifle - DLC" ),
+				WeaponBuyMenuEntry( Weapon.BubbleGun, 100, 0, "Bubble Gun" ),
+                WeaponBuyMenuEntry( Weapon.Handgun, 500, 0, "Pistol" ),
+                WeaponBuyMenuEntry( Weapon.Revolver, 1000, 0, "Revolver" ),
+                WeaponBuyMenuEntry( Weapon.SMG, 1200, 0, "SMG" ),
+                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 1100, 0, "Sawn-off Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 2000, 0, "Grenade Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Assault, 2000, 0, "Assault Rifle" ),
+				WeaponBuyMenuEntry( Weapon.Shotgun, 2000, 0, "Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.MachineGun, 4000, 0, "Machine Gun" ),
+				WeaponBuyMenuEntry( Weapon.Sniper, 5000, 0, "Sniper Rifle" ),
+				WeaponBuyMenuEntry( Weapon.RocketLauncher, 7500, 0, "Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 10000, 0, "Panay Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Minigun, 7500, 0, "Minigun" ),
+				WeaponBuyMenuEntry( Weapon.SignatureGun, 3500, 0, "Rico's Signature Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.Airzooka, 7500, 0, "Air Propulsion Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 7500, 0, "Cluster Bomb Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 10000, 0, "Multi-target Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 10000, 0, "Quad Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 7500, 0, "Bull's Eye Assault Rifle - DLC" ),
             },
 			
             ["Primary"] = {
-				WeaponBuyMenuEntry( Weapon.BubbleGun, 0, 2, "Bubble Gun" ),
-                WeaponBuyMenuEntry( Weapon.Handgun, 0, 2, "Pistol" ),
-                WeaponBuyMenuEntry( Weapon.Revolver, 0, 2, "Revolver" ),
-                WeaponBuyMenuEntry( Weapon.SMG, 0, 2, "SMG" ),
-                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 0, 2, "Sawn-off Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 0, 2, "Grenade Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Assault, 0, 2, "Assault Rifle" ),
-				WeaponBuyMenuEntry( Weapon.Shotgun, 0, 2, "Shotgun" ),
-				WeaponBuyMenuEntry( Weapon.MachineGun, 0, 2, "Machine Gun" ),
-				WeaponBuyMenuEntry( Weapon.Sniper, 0, 2, "Sniper Rifle" ),
-				WeaponBuyMenuEntry( Weapon.RocketLauncher, 0, 2, "Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 0, 2, "Panay Rocket Launcher" ),
-				WeaponBuyMenuEntry( Weapon.Minigun, 0, 2, "Minigun" ),
-				WeaponBuyMenuEntry( Weapon.SignatureGun, 0, 2, "Rico's Signature Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.Airzooka, 0, 2, "Air Propulsion Gun - DLC" ),
-				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 0, 2, "Cluster Bomb Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 0, 2, "Multi-target Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 0, 2, "Quad Rocket Launcher - DLC" ),
-				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 0, 2, "Bull's Eye Assault Rifle - DLC" ),
+				WeaponBuyMenuEntry( Weapon.BubbleGun, 100, 2, "Bubble Gun" ),
+                WeaponBuyMenuEntry( Weapon.Handgun, 500, 2, "Pistol" ),
+                WeaponBuyMenuEntry( Weapon.Revolver, 1000, 2, "Revolver" ),
+                WeaponBuyMenuEntry( Weapon.SMG, 1200, 2, "SMG" ),
+                WeaponBuyMenuEntry( Weapon.SawnOffShotgun, 1100, 2, "Sawn-off Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.GrenadeLauncher, 2000, 2, "Grenade Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Assault, 2000, 2, "Assault Rifle" ),
+				WeaponBuyMenuEntry( Weapon.Shotgun, 2000, 2, "Shotgun" ),
+				WeaponBuyMenuEntry( Weapon.MachineGun, 4000, 2, "Machine Gun" ),
+				WeaponBuyMenuEntry( Weapon.Sniper, 5000, 2, "Sniper Rifle" ),
+				WeaponBuyMenuEntry( Weapon.RocketLauncher, 7500, 2, "Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.PanayRocketLauncher, 10000, 2, "Panay Rocket Launcher" ),
+				WeaponBuyMenuEntry( Weapon.Minigun, 7500, 2, "Minigun" ),
+				WeaponBuyMenuEntry( Weapon.SignatureGun, 3500, 2, "Rico's Signature Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.Airzooka, 7500, 2, "Air Propulsion Gun - DLC" ),
+				WeaponBuyMenuEntry( Weapon.ClusterBombLauncher, 7500, 2, "Cluster Bomb Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.MultiTargetRocketLauncher, 10000, 2, "Multi-target Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.QuadRocketLauncher, 10000, 2, "Quad Rocket Launcher - DLC" ),
+				WeaponBuyMenuEntry( Weapon.AlphaDLCWeapon, 7500, 2, "Bull's Eye Assault Rifle - DLC" ),
             }
         },
 
@@ -724,8 +724,8 @@ function BuyMenu:CreateItems()
             },
 
             ["Ular Boys"] = {
-                ModelBuyMenuEntry( 38, 0, "Sri Irawan" ),
-                ModelBuyMenuEntry( 87, 0, "Elite" ),
+                ModelBuyMenuEntry( 38, 500, "Sri Irawan" ),
+                ModelBuyMenuEntry( 87, 800, "Elite" ),
                 ModelBuyMenuEntry( 22, 0, "Technician" ),
                 ModelBuyMenuEntry( 27, 0, "Soldier 1" ),
                 ModelBuyMenuEntry( 103, 0, "Soldier 2" )
@@ -740,13 +740,13 @@ function BuyMenu:CreateItems()
             },
 
             ["Government"] = {
-                ModelBuyMenuEntry( 74, 0, "Baby Panay" ),
+                ModelBuyMenuEntry( 74, 750, "Baby Panay" ),
                 ModelBuyMenuEntry( 67, 0, "Burned Baby Panay" ),
-                ModelBuyMenuEntry( 101, 0, "Colonel" ),
+                ModelBuyMenuEntry( 101, 350, "Colonel" ),
                 ModelBuyMenuEntry( 3, 0, "Demo Expert" ),
                 ModelBuyMenuEntry( 98, 0, "Pilot" ),
                 ModelBuyMenuEntry( 42, 0, "Black Hand" ),
-                ModelBuyMenuEntry( 44, 0, "Ninja" ),
+                ModelBuyMenuEntry( 44, 750, "Ninja" ),
                 ModelBuyMenuEntry( 23, 0, "Scientist" ),
                 ModelBuyMenuEntry( 52, 0, "Soldier 1" ),
                 ModelBuyMenuEntry( 66, 0, "Soldier 2" ) 
@@ -754,23 +754,23 @@ function BuyMenu:CreateItems()
 
             ["Agency"] = {
                 ModelBuyMenuEntry( 9, 0, "Karl Blaine" ),
-                ModelBuyMenuEntry( 65, 0, "Jade Tan" ),
+                ModelBuyMenuEntry( 65, 4000, "Jade Tan" ),
                 ModelBuyMenuEntry( 25, 0, "Maria Kane" ),
                 ModelBuyMenuEntry( 30, 0, "Marshall" ),
-                ModelBuyMenuEntry( 34, 0, "Tom Sheldon" ),
+                ModelBuyMenuEntry( 34, 750, "Tom Sheldon" ),
                 ModelBuyMenuEntry( 100, 0, "Black Market Dealer" ),
                 ModelBuyMenuEntry( 83, 0, "White Tiger" ),
-                ModelBuyMenuEntry( 51, 0, "Rico Rodriguez" )
+                ModelBuyMenuEntry( 51, 350, "Rico Rodriguez" )
             },
 
             ["Misc"] = {
                 ModelBuyMenuEntry( 70, 0, "General Masayo" ),
-                ModelBuyMenuEntry( 11, 0, "Zhang Sun" ),
-                ModelBuyMenuEntry( 84, 0, "Alexander Mirikov" ),
+                ModelBuyMenuEntry( 11, 250, "Zhang Sun" ),
+                ModelBuyMenuEntry( 84, 750, "Alexander Mirikov" ),
                 ModelBuyMenuEntry( 19, 0, "Chinese Businessman" ),
                 ModelBuyMenuEntry( 36, 0, "Politician" ),
-                ModelBuyMenuEntry( 78, 0, "Thug Boss" ),
-                ModelBuyMenuEntry( 71, 0, "Saul Sukarno" ),
+                ModelBuyMenuEntry( 78, 1100, "Thug Boss" ),
+                ModelBuyMenuEntry( 71, 350, "Saul Sukarno" ),
                 ModelBuyMenuEntry( 79, 0, "Japanese Veteran" ),
                 ModelBuyMenuEntry( 96, 0, "Bodyguard" ),
                 ModelBuyMenuEntry( 80, 0, "Suited Guest 1" ),
@@ -778,16 +778,16 @@ function BuyMenu:CreateItems()
                 ModelBuyMenuEntry( 60, 0, "Race Challenge Girl" ),
                 ModelBuyMenuEntry( 15, 0, "Male Stripper 1" ),
                 ModelBuyMenuEntry( 17, 0, "Male Stripper 2" ),
-                ModelBuyMenuEntry( 86, 0, "Female Stripper" ),
+                ModelBuyMenuEntry( 86, 600, "Female Stripper" ),
                 ModelBuyMenuEntry( 16, 0, "Panau Police" ),
-                ModelBuyMenuEntry( 18, 0, "Hacker" ),
-                ModelBuyMenuEntry( 64, 0, "Bom Bom Bohilano" ),
-                ModelBuyMenuEntry( 40, 0, "Factory Boss" ),
-                ModelBuyMenuEntry( 1, 0, "Thug 1" ),
+                ModelBuyMenuEntry( 18, 5000, "Hacker" ),
+                ModelBuyMenuEntry( 64, 4000, "Bom Bom Bohilano" ),
+                ModelBuyMenuEntry( 40, 800, "Factory Boss" ),
+                ModelBuyMenuEntry( 1, 350, "Thug 1" ),
                 ModelBuyMenuEntry( 39, 0, "Thug 2" ),
-                ModelBuyMenuEntry( 61, 0, "Soldier" ),
+                ModelBuyMenuEntry( 61, 350, "Soldier" ),
                 ModelBuyMenuEntry( 26, 0, "Boat Captain" ),
-                ModelBuyMenuEntry( 21, 0, "Paparazzi" ),
+                ModelBuyMenuEntry( 21, 350, "Paparazzi" ),
             }
         },
 
