@@ -712,7 +712,7 @@ function BuyMenu:CreateItems()
         },
 
         [self.types.Model] = {
-            { "Roaches", "Ular Boys", "Reapers", "Government", "Agency", "Misc" },
+            { "Roaches", "Ular Boys", "Reapers", "Government", "Agency", "Misc", "Civilians" },
 
             ["Roaches"] = {
 --                ModelBuyMenuEntry( 2, 0, "Razak Razman", 1 ),
@@ -776,9 +776,9 @@ function BuyMenu:CreateItems()
                 ModelBuyMenuEntry( 80, 0, "Suited Guest 1" ),
                 ModelBuyMenuEntry( 95, 0, "Suited Guest 2" ),
                 ModelBuyMenuEntry( 60, 0, "Race Challenge Girl" ),
-                ModelBuyMenuEntry( 15, 0, "Male Stripper 1" ),
-                ModelBuyMenuEntry( 17, 0, "Male Stripper 2" ),
-                ModelBuyMenuEntry( 86, 600, "Female Stripper" ),
+                ModelBuyMenuEntry( 15, 1250, "Male Stripper 1" ),
+                ModelBuyMenuEntry( 17, 1250, "Male Stripper 2" ),
+                ModelBuyMenuEntry( 86, 1250, "Female Stripper" ),
                 ModelBuyMenuEntry( 16, 0, "Panau Police" ),
                 ModelBuyMenuEntry( 18, 5000, "Hacker" ),
                 ModelBuyMenuEntry( 64, 4000, "Bom Bom Bohilano" ),
@@ -791,7 +791,7 @@ function BuyMenu:CreateItems()
             },
 
 			["Civilians"] = {
-				ModelBuyMenuEntry( 7, 5000, "City Male 1" ),
+				ModelBuyMenuEntry( 7, 1250, "City Male 1" ),
 				ModelBuyMenuEntry( 35, 1250, "City Male 2" ),
 				ModelBuyMenuEntry( 88, 1250, "Male Tourist" ),
 				ModelBuyMenuEntry( 4, 1250, "Female Tourist 1" ),
